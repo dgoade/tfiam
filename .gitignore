@@ -1,0 +1,17 @@
+# Mac OS X folder information file
+.DS_Store
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+### PyCharm / IntelliJ / IDEs ###
+.idea/
+*.iml
+.vscode/
