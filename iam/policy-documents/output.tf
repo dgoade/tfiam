@@ -1,3 +1,7 @@
+output "admin" {
+  value = module.admin
+}
+
 output "iam_self_managed_access" {
   value = module.iam_self_managed_access
 }

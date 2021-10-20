@@ -3,7 +3,7 @@ data "aws_iam_policy_document" "combined_policy" {
 }
 
 resource "aws_iam_policy" "policy" {
-  name   = "power-users"
+  name   = "admins"
   path   = "/"
   policy = data.aws_iam_policy_document.combined_policy.json
 }

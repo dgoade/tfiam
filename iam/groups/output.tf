@@ -7,5 +7,5 @@ output "power_users_group" {
 }
 
 output "admins_group" {
-  value       = module.power_users
+  value       = module.admins
 }

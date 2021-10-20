@@ -8,12 +8,7 @@ variable "aws_managed_policy_arns" {
   default = [
     "arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess",
     "arn:aws:iam::aws:policy/AmazonVPCReadOnlyAccess",
-    "arn:aws:iam::aws:policy/AWSCodeCommitPowerUser",
-    "arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess",
     "arn:aws:iam::aws:policy/CloudWatchLogsFullAccess",
-    "arn:aws:iam::aws:policy/AmazonSNSFullAccess",
-    "arn:aws:iam::aws:policy/AWSLambda_FullAccess",
-    "arn:aws:iam::aws:policy/AmazonSQSFullAccess",
   ]
 }
 

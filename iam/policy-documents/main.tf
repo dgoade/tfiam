@@ -10,6 +10,10 @@ terraform {
   }
 }
 
+module "admin" {
+  source = "./admin"
+}
+
 module "iam_self_managed_access" {
   source = "./iam-self-managed-access"
 }

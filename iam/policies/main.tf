@@ -10,6 +10,10 @@ terraform {
   }
 }
 
+module "admins_policy" {
+  source = "./admins"
+}
+
 module "iam_self_managed_access_policy" {
   source = "./iam-self-managed-access"
 }

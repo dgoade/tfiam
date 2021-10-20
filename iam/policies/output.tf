@@ -1,3 +1,7 @@
+output "admins" {
+  value = module.admins_policy
+}
+
 output "iam_self_managed_access" {
   value = module.iam_self_managed_access_policy
 }
