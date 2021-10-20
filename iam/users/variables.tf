@@ -16,9 +16,14 @@ locals {
 # map of users with groups to add them to
 locals {
   user_map = {
-    dgoade = {
+    dcgoade = {
       group_names : [
         local.groups.admins_group.name,
+      ],
+    },
+    tmgoade = {
+      group_names : [
+        local.groups.developers_group.name,
       ],
     }
   }
